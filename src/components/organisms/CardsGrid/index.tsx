@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import RFCard from "../../molecules/Cards/RFCard";
 import { CardsProps } from "../../molecules/Cards/RFCard";
 import { Grid } from "@mui/material";
 import { customStyles } from "../../../theme";
+import axios from "axios";
 
 // const classes = customStyles();
 
 interface cardObjProps {
+  handleClick: (id: number, finish: boolean) => void;
   details: {
+    id: number;
     imgsrc: string;
     bookName: string;
     authorName: string;
@@ -27,13 +30,48 @@ interface cardObjProps {
 //   );
 // };
 
+// interface cardGridProps {
+//   name: "finished" | "currentlyReading";
+// }
+
+// const Index = ({ name }: cardGridProps) => {
+//   const [books, setBooks] = useState([]);
+//   useEffect(() => {
+//     axios.get("http://localhost:3001/booklist").then((res) => {
+//       console.log(res.data);
+//       setBooks(res.data);
+//     });
+//   }, [name]);
+
+//   const handleClick = async (item: string, finish: boolean) => {
+//     await axios
+//       .patch(`http://localhost:3001/booklist?bookName=${item}`, {
+//         finished: !finish,
+//       })
+//       .then((res) => {
+//         setBooks(res.data);
+//       });
+
+//     const requiredBooks =
+//       name === "finished"
+//         ? books.filter((book: any) => {
+
+//             return book.finished === true;
+//           })
+//         : books.filter((book: any) => {
+//           console.log(book.finished);
+//             return book.finished === false;
+//           });
+//     // console.log(requiredBooks);
+//     setBooks(requiredBooks);
+//   };
 const Index = (props: cardObjProps) => {
   return (
     <Grid container rowSpacing={3} sx={{ justifyContent: "space-between" }}>
-      {props.details.map((cardObj) => {
+      {props.details.map((cardObj, index) => {
         return (
-          <Grid item>
-            <RFCard {...cardObj} />
+          <Grid item key={index}>
+            <RFCard handleClick={props.handleClick} {...cardObj} />
           </Grid>
         );
       })}

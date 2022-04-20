@@ -6,6 +6,7 @@ import Bookdetail from "./components/pages/BookDetailPage";
 
 import customTheme from "./theme";
 import { ThemeProvider } from "@emotion/react";
+import { StyledEngineProvider } from "@mui/material/styles";
 
 function App() {
   return (
@@ -24,9 +25,13 @@ function App() {
           Learn React
         </a> */}
       {/* </header> */}
-      <ThemeProvider theme={customTheme}>
-        <Bookdetail />
-      </ThemeProvider>
+
+      {/* <Bookdetail /> */}
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={customTheme}>
+          <LandingPage />
+        </ThemeProvider>
+      </StyledEngineProvider>
     </div>
   );
 }

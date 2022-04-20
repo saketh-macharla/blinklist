@@ -1,11 +1,11 @@
 import GridCard from "./index";
-import { BookList } from "../../../components/constants";
+// import { BookList } from "../../../components/constants";
 
-export default {
-  title: "organisms/Card/GridCard",
-  component: GridCard,
-};
+// export default {
+//   title: "organisms/Card/GridCard",
+//   component: GridCard,
+// };
 
-export const card = () => {
-  return <GridCard details={BookList} />;
-};
+// export const card = () => {
+//   return <GridCard name="curr"/>;
+// };

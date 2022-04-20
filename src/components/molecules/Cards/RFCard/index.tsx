@@ -11,16 +11,11 @@ import AccessTime from "@mui/icons-material/AccessTime";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import Buttons from "../../../atoms/Buttons/Buttons";
 import { padding } from "@mui/system";
+import { StringDecoder } from "string_decoder";
+import { bookInfo } from "../../../organisms/FunctionalGrid";
 
-export interface CardsProps {
-  imgsrc: string;
-  bookName: string;
-  authorName: string;
-  time: string;
-  nReads: string;
-  icon1: string;
-  icon2: string;
-  finished: boolean;
+export interface CardsProps extends bookInfo {
+  handleClick: (id: number, finish: boolean) => void;
 }
 
 const index = (props: CardsProps) => {
@@ -79,7 +74,10 @@ const index = (props: CardsProps) => {
       </Buttons> */}
         <div>
           {props.finished ? (
-            <Buttons variant="text">
+            <Buttons
+              variant="text"
+              onClick={() => props.handleClick(props.id, props.finished)}
+            >
               <CustomTypo
                 variant="body1"
                 component="div"
@@ -88,7 +86,10 @@ const index = (props: CardsProps) => {
               />
             </Buttons>
           ) : (
-            <Buttons variant="text">
+            <Buttons
+              variant="text"
+              onClick={() => props.handleClick(props.id, props.finished)}
+            >
               <CustomTypo
                 variant="body1"
                 component="div"

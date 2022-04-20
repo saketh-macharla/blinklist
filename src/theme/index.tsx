@@ -182,7 +182,7 @@ var customStyles = makeStyles({
   },
   fullFooter: {
     height: "370px",
-    // width: "1440px",
+    width: "1440px",
     background: "#F1F6F4",
     alignItems: "center",
     justifyContent: "center",
@@ -191,7 +191,7 @@ var customStyles = makeStyles({
     color: "#0365F2",
     fontWeight: 500,
     textTransform: "none",
-    width: "83px",
+    width: "100px",
     height: "20px",
   },
   finished: {

@@ -14,6 +14,8 @@ export const card = () => {
   const classes = customStyles();
   return (
     <SingleCard
+      handleClick={() => {}}
+      id={0}
       finished={false}
       imgsrc={bringyourhuman}
       bookName="Bring Your Human To Work"

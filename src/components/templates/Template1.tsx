@@ -66,7 +66,7 @@ const Template1 = ({ Header, Footer, Content }: templateProps) => {
 
       <Grid item container>
         <Grid item xs={false} sm={3} />
-        <Grid item xs={6}>
+        <Grid item container direction="column" xs={6}>
           {Content}
         </Grid>
         <Grid item xs={false} sm={3} />

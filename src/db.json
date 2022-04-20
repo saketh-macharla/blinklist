@@ -1,0 +1,103 @@
+{
+  "BookList": [
+    {
+      "id": 1,
+      "finished": true,
+      "imgsrc": "BookCovers/bringyourhumantowork.png",
+      "bookName": "Bring Your Human To Work",
+      "authorName": "Eric Keswin",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 2,
+      "finished": false,
+      "imgsrc": "BookCovers/employee_to_entrepreneur.jpg",
+      "bookName": "Employee to Entrepreneur",
+      "authorName": "Steve Glaveski",
+      "time": "15-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 3,
+      "finished": true,
+      "imgsrc": "BookCovers/doesnthurttoask.png",
+      "bookName": "Doesn’t Hurt to Ask",
+      "authorName": "Trey Gowdy",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 4,
+      "finished": true,
+      "imgsrc": "BookCovers/thefateoffood.png",
+      "bookName": "The Fate of Food",
+      "authorName": "Amanda Little",
+      "time": "12-minute read",
+      "nReads": "16k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 5,
+      "finished": true,
+      "imgsrc": "BookCovers/livesofthestoics.png",
+      "bookName": "Lives of the Stoics",
+      "authorName": "Ryan Holiday, Stephen Hansel",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 6,
+      "finished": false,
+      "imgsrc": "BookCovers/lovingyourbusiness.png",
+      "bookName": "Loving Your Business",
+      "authorName": "Debbie King",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 7,
+      "finished": true,
+      "imgsrc": "BookCovers/thelonelycentury.png",
+      "bookName": "The Lonely Century",
+      "authorName": "Noreena Hertz",
+      "time": "15-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 8,
+      "finished": false,
+      "imgsrc": "BookCovers/eatbetterfeelbetter.png",
+      "bookName": "Eat Better, Feel Better",
+      "authorName": "Giada De Laurentiis",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 9,
+      "finished": false,
+      "imgsrc": "BookCovers/dropshipping.png",
+      "bookName": "Dropshipping",
+      "authorName": "James Moore",
+      "time": "12-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    }
+  ]
+}
