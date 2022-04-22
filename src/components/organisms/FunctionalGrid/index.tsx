@@ -42,7 +42,7 @@ const Index = ({ name, books, fetchRecords }: FunctionalGridProps) => {
 
   return (
     <>
-      <CardGrid details={books} handleClick={handleClick} />
+      <CardGrid addtoLib={false} details={books} handleClick={handleClick} />
     </>
   );
 };

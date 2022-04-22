@@ -11,8 +11,11 @@ import AccessTime from "@mui/icons-material/AccessTime";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import { padding } from "@mui/system";
 import AddToLibrary from "../../AddToLibrary";
+import { bookInfo } from "../../../organisms/FunctionalGrid";
 
 export interface CardsProps {
+  handleClick: ((id: number, finish: boolean) => void) | (() => void);
+  id: number;
   imgsrc: string;
   bookName: string;
   authorName: string;
@@ -24,6 +27,7 @@ export interface CardsProps {
 
 const index = (props: CardsProps) => {
   const classes = customStyles();
+
   return (
     <Card className={classes.CardHead}>
       <CardMedia
@@ -66,7 +70,7 @@ const index = (props: CardsProps) => {
       </CardContent>
 
       <CardActions sx={{ padding: "0px" }}>
-        <AddToLibrary />
+        <AddToLibrary handleClick={props.handleClick} />
       </CardActions>
     </Card>
   );

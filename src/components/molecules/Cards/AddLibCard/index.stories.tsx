@@ -14,6 +14,8 @@ export const card = () => {
   const classes = customStyles();
   return (
     <SingleLibCard
+      handleClick={() => {}}
+      id={0}
       imgsrc={bringyourhuman}
       bookName="Bring Your Human To Work"
       authorName="Eric Keswin"

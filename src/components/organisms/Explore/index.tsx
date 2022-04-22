@@ -98,7 +98,11 @@ const itemList = [
   },
 ];
 
-const Index = () => {
+interface ExploreCardProps {
+  handleChange: () => void;
+}
+
+const Index = (props: ExploreCardProps) => {
   const classes = customStyles();
   const ExploreItem = itemList.map((eItem) => {
     return (
@@ -106,6 +110,7 @@ const Index = () => {
         key={eItem.name}
         startIcon={eItem.icon}
         className={classes.exploreHover}
+        onClick={props.handleChange}
       >
         <CustomTypo variant="body2" component="div" children={eItem.name} />
       </Buttons>

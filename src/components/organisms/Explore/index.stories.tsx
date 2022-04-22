@@ -7,5 +7,5 @@ export default {
 
 export const card = () => {
   // const classes=customStyles();
-  return <Explore />;
+  return <Explore handleChange={() => {}} />;
 };

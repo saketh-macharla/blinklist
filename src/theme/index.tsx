@@ -4,12 +4,14 @@ import { makeStyles } from "@material-ui/core";
 declare module "@mui/material/styles" {
   interface TypographyVariants {
     heading: React.CSSProperties;
+    heading3: React.CSSProperties;
     subtitle5: React.CSSProperties;
   }
 
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
     heading?: React.CSSProperties;
+    heading3?: React.CSSProperties;
     subtitle5?: React.CSSProperties;
   }
 }
@@ -18,6 +20,7 @@ declare module "@mui/material/styles" {
 declare module "@mui/material/Typography" {
   interface TypographyPropsVariantOverrides {
     heading: true;
+    heading3: true;
     subtitle5: true;
   }
 }
@@ -38,6 +41,11 @@ const customTheme = createTheme({
     heading: {
       fontSize: "36px",
       lineHeight: "45px",
+      fontWeight: 700,
+    },
+    heading3: {
+      fontSize: "24px",
+      lineHeight: "30.17px",
       fontWeight: 700,
     },
     subtitle1: {
@@ -240,10 +248,15 @@ var customStyles = makeStyles({
     display: "none",
   },
   visible: {
+    zIndex: 1,
     position: "absolute",
     height: "398px",
     top: "60px",
     background: "#F1F6F4",
+  },
+  trendingBooks: {
+    color: "#03314B",
+    marginBottom: "25px",
   },
 });
 export { customStyles };

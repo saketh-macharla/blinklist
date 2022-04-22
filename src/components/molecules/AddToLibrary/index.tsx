@@ -1,22 +1,31 @@
-import React from 'react'
-import Buttons from '../../atoms/Buttons/Buttons'
-import { styled } from '@mui/system';
-import AddIcon from '@mui/icons-material/Add';
-import { customStyles } from '../../../theme';
-import CustomTypo from '../../atoms/CustomTypo';
+import React from "react";
+import Buttons from "../../atoms/Buttons/Buttons";
+import { styled } from "@mui/system";
+import AddIcon from "@mui/icons-material/Add";
+import { customStyles } from "../../../theme";
+import CustomTypo from "../../atoms/CustomTypo";
 
+// type fun1 = (id: number, finish: boolean) => void;
+// type fun2 = () => void;
 
-const index = () => {
-    const classes =customStyles();
-  return (
-    <>
-    <Buttons variant='outlined' startIcon={<AddIcon/>} className={classes.addToLib}>
-        
-        <CustomTypo  variant='body2' component='div' children='Add to library'/>
-
-    </Buttons> 
-    </>
-  )
+interface AddLibProps {
+  handleClick: any;
 }
 
-export default index
+const index = (props: AddLibProps) => {
+  const classes = customStyles();
+  return (
+    <>
+      <Buttons
+        variant="outlined"
+        startIcon={<AddIcon />}
+        className={classes.addToLib}
+        onClick={() => props.handleClick()}
+      >
+        <CustomTypo variant="body2" component="div" children="Add to library" />
+      </Buttons>
+    </>
+  );
+};
+
+export default index;

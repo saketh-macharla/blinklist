@@ -14,9 +14,11 @@ import Buttons from "../../atoms/Buttons/Buttons";
 import SvgIcon from "@mui/material/SvgIcon";
 import { ReactComponent as SearchIcon } from "../../../assets/Image/SearchIcon.svg";
 import ExploreDrop from "../Explore/index";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
   const [clicked, handler] = useState(false);
+  const navigate = useNavigate();
   const classes = customStyles();
 
   return (
@@ -87,12 +89,18 @@ const Index = () => {
             flexGrow: 1,
           }}
         >
-          <CustomTypo
-            variant="body2"
-            component="div"
-            children="My Library"
-            className={classes.bookInfo}
-          />
+          <Buttons
+            variant="text"
+            onClick={() => navigate("/")}
+            sx={{ textTransform: "none" }}
+          >
+            <CustomTypo
+              variant="body2"
+              component="div"
+              children="My Library"
+              className={classes.bookInfo}
+            />
+          </Buttons>
         </Grid>
 
         <Grid item>
@@ -105,7 +113,7 @@ const Index = () => {
         sx={{ width: "1440px" }}
         className={clicked ? classes.visible : classes.hidden}
       >
-        <ExploreDrop />
+        <ExploreDrop handleChange={() => navigate("/explorePage")} />
       </Grid>
     </Grid>
 

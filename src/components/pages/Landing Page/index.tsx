@@ -56,12 +56,20 @@ const Index = () => {
                   <Tab
                     label="Currently reading"
                     value="1"
-                    sx={{ width: "304px", textTransform: "none" }}
+                    sx={{
+                      width: "304px",
+                      textTransform: "none",
+                      alignItems: "flex-start",
+                    }}
                   />
                   <Tab
                     label="Finished"
                     value="2"
-                    sx={{ width: "304px", textTransform: "none" }}
+                    sx={{
+                      width: "304px",
+                      textTransform: "none",
+                      alignItems: "flex-start",
+                    }}
                   />
                 </TabList>
               </Box>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import RFCard from "../../molecules/Cards/RFCard";
+import AddLibCard from "../../molecules/Cards/AddLibCard";
 import { CardsProps } from "../../molecules/Cards/RFCard";
 import { Grid } from "@mui/material";
 import { customStyles } from "../../../theme";
@@ -8,7 +9,8 @@ import axios from "axios";
 // const classes = customStyles();
 
 interface cardObjProps {
-  handleClick: (id: number, finish: boolean) => void;
+  handleClick: ((id: number, finish: boolean) => void) | (() => void);
+  addtoLib: boolean;
   details: {
     id: number;
     imgsrc: string;
@@ -67,11 +69,15 @@ interface cardObjProps {
 //   };
 const Index = (props: cardObjProps) => {
   return (
-    <Grid container rowSpacing={3} sx={{ justifyContent: "space-between" }}>
+    <Grid container spacing={"29px"}>
       {props.details.map((cardObj, index) => {
         return (
           <Grid item key={index}>
-            <RFCard handleClick={props.handleClick} {...cardObj} />
+            {props.addtoLib ? (
+              <AddLibCard handleClick={props.handleClick} {...cardObj} />
+            ) : (
+              <RFCard handleClick={props.handleClick} {...cardObj} />
+            )}
           </Grid>
         );
       })}
