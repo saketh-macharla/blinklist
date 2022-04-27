@@ -9,7 +9,7 @@ import axios from "axios";
 // const classes = customStyles();
 
 interface cardObjProps {
-  handleClick: ((id: number, finish: boolean) => void) | (() => void);
+  handleClick: ((id: number, finish: boolean) => void) | ((id: number) => void);
   addtoLib: boolean;
   details: {
     id: number;

@@ -19,7 +19,7 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<LandingPage />} />
-              <Route path="bookDetailPage" element={<Bookdetail />} />
+              <Route path="bookDetailPage/:id" element={<Bookdetail />} />
               <Route path="explorePage" element={<ExplorePage />} />
             </Routes>
           </BrowserRouter>

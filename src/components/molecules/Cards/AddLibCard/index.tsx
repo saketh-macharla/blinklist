@@ -14,7 +14,7 @@ import AddToLibrary from "../../AddToLibrary";
 import { bookInfo } from "../../../organisms/FunctionalGrid";
 
 export interface CardsProps {
-  handleClick: ((id: number, finish: boolean) => void) | (() => void);
+  handleClick: any;
   id: number;
   imgsrc: string;
   bookName: string;
@@ -70,7 +70,7 @@ const index = (props: CardsProps) => {
       </CardContent>
 
       <CardActions sx={{ padding: "0px" }}>
-        <AddToLibrary handleClick={props.handleClick} />
+        <AddToLibrary handleClick={() => props.handleClick(props.id)} />
       </CardActions>
     </Card>
   );

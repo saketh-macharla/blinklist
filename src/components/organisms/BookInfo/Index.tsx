@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import CustomTypo from "../../atoms/CustomTypo";
 import { ClassNames } from "@emotion/react";
@@ -7,13 +7,37 @@ import IconWithText from "../../molecules/IconWithText/index";
 import Time from "../../../assets/Image/Time.png";
 import Buttons from "../../atoms/Buttons/Buttons";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import axios from "axios";
+import { fabClasses } from "@mui/material";
 
 interface BookInfoProps {
   imgPath: string;
-  children: string;
+  authorName: string;
+  bookName: string;
+  finish: boolean;
+  id: number;
 }
 const Index = (props: BookInfoProps) => {
   const classes = customStyles();
+  const [click, setClicked] = useState<boolean>();
+  // Note: If props are used to set initial state then use useEffect
+  //Here you have to add useEffect if you want to update the state on props change, which will listen to prop change & will update the state value accordingly
+  // refer - https://stackoverflow.com/questions/58818727/react-usestate-not-setting-initial-value
+
+  useEffect(() => {
+    setClicked(props.finish);
+  }, [props.finish]);
+
+  const handleClick = async () => {
+    const response1 = await axios.patch(
+      `http://localhost:3001/booklist/${props.id}`,
+      {
+        finished: !click,
+      }
+    );
+    setClicked(response1.data.finished);
+  };
+
   return (
     <div>
       <CustomTypo
@@ -42,7 +66,7 @@ const Index = (props: BookInfoProps) => {
               <CustomTypo
                 variant="heading"
                 component="div"
-                children={props.children}
+                children={props.bookName}
                 className={classes.bookInfo}
               />
             </Grid>
@@ -60,7 +84,7 @@ const Index = (props: BookInfoProps) => {
               <CustomTypo
                 variant="body2"
                 component="div"
-                children="By Jim Collins and Bill Lasier"
+                children={`By ${props.authorName}`}
                 className={classes.iconText}
               />
             </Grid>
@@ -80,6 +104,8 @@ const Index = (props: BookInfoProps) => {
                 <Buttons
                   variant="outlined"
                   className={`${classes.buttonstyle} ${classes.readNowButton}`}
+                  onClick={handleClick}
+                  disabled={!click ? true : false}
                 >
                   Read now
                 </Buttons>
@@ -89,6 +115,8 @@ const Index = (props: BookInfoProps) => {
                 <Buttons
                   variant="text"
                   className={`${classes.buttonstyle} ${classes.finishedReading}`}
+                  onClick={handleClick}
+                  disabled={click ? true : false}
                 >
                   Finished Reading
                 </Buttons>

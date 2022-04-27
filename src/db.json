@@ -2,8 +2,8 @@
   "BookList": [
     {
       "id": 1,
-      "finished": true,
-      "imgsrc": "BookCovers/bringyourhumantowork.png",
+      "finished": false,
+      "imgsrc": "/BookCovers/bringyourhumantowork.png",
       "bookName": "Bring Your Human To Work",
       "authorName": "Eric Keswin",
       "time": "13-minute read",
@@ -13,8 +13,8 @@
     },
     {
       "id": 2,
-      "finished": true,
-      "imgsrc": "BookCovers/employee_to_entrepreneur.jpg",
+      "finished": false,
+      "imgsrc": "/BookCovers/employee_to_entrepreneur.jpg",
       "bookName": "Employee to Entrepreneur",
       "authorName": "Steve Glaveski",
       "time": "15-minute read",
@@ -24,8 +24,8 @@
     },
     {
       "id": 3,
-      "finished": false,
-      "imgsrc": "BookCovers/doesnthurttoask.png",
+      "finished": true,
+      "imgsrc": "/BookCovers/doesnthurttoask.png",
       "bookName": "Doesn’t Hurt to Ask",
       "authorName": "Trey Gowdy",
       "time": "13-minute read",
@@ -35,8 +35,8 @@
     },
     {
       "id": 4,
-      "finished": true,
-      "imgsrc": "BookCovers/thefateoffood.png",
+      "finished": false,
+      "imgsrc": "/BookCovers/thefateoffood.png",
       "bookName": "The Fate of Food",
       "authorName": "Amanda Little",
       "time": "12-minute read",
@@ -46,8 +46,8 @@
     },
     {
       "id": 5,
-      "finished": true,
-      "imgsrc": "BookCovers/livesofthestoics.png",
+      "finished": false,
+      "imgsrc": "/BookCovers/livesofthestoics.png",
       "bookName": "Lives of the Stoics",
       "authorName": "Ryan Holiday, Stephen Hansel",
       "time": "13-minute read",
@@ -57,8 +57,8 @@
     },
     {
       "id": 6,
-      "finished": true,
-      "imgsrc": "BookCovers/lovingyourbusiness.png",
+      "finished": false,
+      "imgsrc": "/BookCovers/lovingyourbusiness.png",
       "bookName": "Loving Your Business",
       "authorName": "Debbie King",
       "time": "13-minute read",
@@ -68,8 +68,8 @@
     },
     {
       "id": 7,
-      "finished": false,
-      "imgsrc": "BookCovers/thelonelycentury.png",
+      "finished": true,
+      "imgsrc": "/BookCovers/thelonelycentury.png",
       "bookName": "The Lonely Century",
       "authorName": "Noreena Hertz",
       "time": "15-minute read",
@@ -80,7 +80,7 @@
     {
       "id": 8,
       "finished": false,
-      "imgsrc": "BookCovers/eatbetterfeelbetter.png",
+      "imgsrc": "/BookCovers/eatbetterfeelbetter.png",
       "bookName": "Eat Better, Feel Better",
       "authorName": "Giada De Laurentiis",
       "time": "13-minute read",
@@ -90,20 +90,19 @@
     },
     {
       "id": 9,
-      "finished": false,
-      "imgsrc": "BookCovers/dropshipping.png",
+      "finished": true,
+      "imgsrc": "/BookCovers/dropshipping.png",
       "bookName": "Dropshipping",
       "authorName": "James Moore",
       "time": "12-minute read",
       "nReads": "1.9k reads",
       "icon1": "Image/Time.png",
       "icon2": "Image/Person.png"
-    }
-  ],
-  "TrendingBlinks": [
+    },
     {
-      "id": 1,
-      "imgsrc": "BookCovers/beingboss.png",
+      "id": 10,
+      "finished": false,
+      "imgsrc": "/BookCovers/beingboss.png",
       "bookName": "Being Boss",
       "authorName": "Kathleen Shannon and Emily...",
       "time": "13-minute read",
@@ -112,8 +111,31 @@
       "icon2": "Image/Person.png"
     },
     {
-      "id": 2,
-      "imgsrc": "BookCovers/beyondentrepreneurship.png",
+      "id": 11,
+      "finished": true,
+      "imgsrc": "/BookCovers/beyondentrepreneurship.png",
+      "bookName": "Beyond Entrepreneurship",
+      "authorName": "Jim Collins & Bill Lazier",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    }
+  ],
+  "TrendingBlinks": [
+    {
+      "id": 10,
+      "imgsrc": "/BookCovers/beingboss.png",
+      "bookName": "Being Boss",
+      "authorName": "Kathleen Shannon and Emily...",
+      "time": "13-minute read",
+      "nReads": "1.9k reads",
+      "icon1": "Image/Time.png",
+      "icon2": "Image/Person.png"
+    },
+    {
+      "id": 11,
+      "imgsrc": "/BookCovers/beyondentrepreneurship.png",
       "bookName": "Beyond Entrepreneurship",
       "authorName": "Jim Collins & Bill Lazier",
       "time": "13-minute read",
@@ -122,8 +144,8 @@
       "icon2": "Image/Person.png"
     },
     {
-      "id": 3,
-      "imgsrc": "BookCovers/employee_to_entrepreneur.jpg",
+      "id": 2,
+      "imgsrc": "/BookCovers/employee_to_entrepreneur.jpg",
       "bookName": "Employee to Entrepreneur",
       "authorName": "Steve Glaveski",
       "time": "15-minute read",
@@ -133,7 +155,7 @@
     },
     {
       "id": 4,
-      "imgsrc": "BookCovers/thefateoffood.png",
+      "imgsrc": "/BookCovers/thefateoffood.png",
       "bookName": "The Fate of Food",
       "authorName": "Amanda Little",
       "time": "12-minute read",
@@ -143,7 +165,7 @@
     },
     {
       "id": 5,
-      "imgsrc": "BookCovers/livesofthestoics.png",
+      "imgsrc": "/BookCovers/livesofthestoics.png",
       "bookName": "Lives of the Stoics",
       "authorName": "Ryan Holiday, Stephen Hansel",
       "time": "13-minute read",
@@ -153,7 +175,7 @@
     },
     {
       "id": 6,
-      "imgsrc": "BookCovers/lovingyourbusiness.png",
+      "imgsrc": "/BookCovers/lovingyourbusiness.png",
       "bookName": "Loving Your Business",
       "authorName": "Debbie King",
       "time": "13-minute read",
@@ -164,8 +186,8 @@
   ],
   "JustAdded": [
     {
-      "id": 1,
-      "imgsrc": "BookCovers/thelonelycentury.png",
+      "id": 7,
+      "imgsrc": "/BookCovers/thelonelycentury.png",
       "bookName": "The Lonely Century",
       "authorName": "Noreena Hertz",
       "time": "15-minute read",
@@ -174,8 +196,8 @@
       "icon2": "Image/Person.png"
     },
     {
-      "id": 2,
-      "imgsrc": "BookCovers/eatbetterfeelbetter.png",
+      "id": 8,
+      "imgsrc": "/BookCovers/eatbetterfeelbetter.png",
       "bookName": "Eat Better, Feel Better",
       "authorName": "Giada De Laurentiis",
       "time": "13-minute read",
@@ -184,8 +206,8 @@
       "icon2": "Image/Person.png"
     },
     {
-      "id": 3,
-      "imgsrc": "BookCovers/dropshipping.png",
+      "id": 9,
+      "imgsrc": "/BookCovers/dropshipping.png",
       "bookName": "Dropshipping",
       "authorName": "James Moore",
       "time": "12-minute read",
@@ -197,7 +219,7 @@
   "Featured": [
     {
       "id": 1,
-      "imgsrc": "BookCovers/bringyourhumantowork.png",
+      "imgsrc": "/BookCovers/bringyourhumantowork.png",
       "bookName": "Bring Your Human To Work",
       "authorName": "Eric Keswin",
       "time": "13-minute read",
@@ -207,7 +229,7 @@
     },
     {
       "id": 2,
-      "imgsrc": "BookCovers/beyondentrepreneurship.png",
+      "imgsrc": "/BookCovers/beyondentrepreneurship.png",
       "bookName": "Beyond Entrepreneurship",
       "authorName": "Jim Collins & Bill Lazier",
       "time": "13-minute read",
@@ -217,7 +239,7 @@
     },
     {
       "id": 3,
-      "imgsrc": "BookCovers/doesnthurttoask.png",
+      "imgsrc": "/BookCovers/doesnthurttoask.png",
       "bookName": "Doesn’t Hurt to Ask",
       "authorName": "Trey Gowdy",
       "time": "13-minute read",

@@ -40,7 +40,10 @@ const Index = () => {
     });
   }, []);
 
-  const handleClick = () => navigate("/bookDetailPage");
+  const handleClick = (id: number) => {
+    console.log(id);
+    navigate(`/bookDetailPage/${id}`);
+  };
 
   return (
     <Template1

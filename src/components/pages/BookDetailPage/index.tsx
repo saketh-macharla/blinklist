@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Grid } from "@mui/material";
 import Header from "../../organisms/Header";
 import Footer from "../../molecules/Footer";
@@ -11,6 +11,8 @@ import beyondEntrepreneur from "../../../assets/BookCovers/beyondentrepreneurshi
 import { Box, Tab } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import CustomTypo from "../../atoms/CustomTypo";
+import { useParams } from "react-router-dom";
+import axios from "axios";
 
 const Index = () => {
   const classes = customStyles();
@@ -20,14 +22,30 @@ const Index = () => {
     setValue(newValue);
   };
 
+  const { id } = useParams();
+  console.log(`params ${id}`);
+  // var books: any = [];
+  const [books, setBooks] = useState([] as any);
+
+  useEffect(() => {
+    axios.get(`http://localhost:3001/booklist/${id}`).then((res) => {
+      setBooks(res.data);
+      console.log(res.data);
+      console.log(books);
+    });
+  }, []);
+
   return (
     <Template
       Header={<Header />}
       Content={
         <>
           <BookInfo
-            children="Beyond Entrepreneur 2.0"
-            imgPath={beyondEntrepreneur}
+            bookName={books.bookName}
+            imgPath={books.imgsrc}
+            authorName={books.authorName}
+            finish={books.finished}
+            id={books.id}
           />
           <Box mt={"60px"}>
             <TabContext value={value}>
