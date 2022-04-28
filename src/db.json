@@ -2,7 +2,7 @@
   "BookList": [
     {
       "id": 1,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/bringyourhumantowork.png",
       "bookName": "Bring Your Human To Work",
       "authorName": "Eric Keswin",
@@ -68,7 +68,7 @@
     },
     {
       "id": 7,
-      "finished": true,
+      "finished": false,
       "imgsrc": "/BookCovers/thelonelycentury.png",
       "bookName": "The Lonely Century",
       "authorName": "Noreena Hertz",
