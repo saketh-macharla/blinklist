@@ -1,8 +1,7 @@
-import React from 'react'
-import { Button } from '@mui/material'
-import {customStyles} from '../../../theme'
-import { ButtonProps} from '@mui/material';
-
+import React from "react";
+import { Button } from "@mui/material";
+import { customStyles } from "../../../theme";
+import { ButtonProps } from "@mui/material";
 
 // interface ButtonsProps{
 //   children:React.ReactNode,
@@ -10,18 +9,11 @@ import { ButtonProps} from '@mui/material';
 //   startIcon?:React.ReactNode,
 //   endIcon?:React.ReactNode,
 //   className?:string,
- 
+
 // }
 
-const Buttons = ({children,...rest}:ButtonProps) => {
-  const classes= customStyles();
-  return (
-    <Button
-    {...rest}
-    >
-      {children}
-    </Button>
-  )
-}
+const Buttons = ({ children, ...rest }: ButtonProps) => {
+  return <Button {...rest}>{children}</Button>;
+};
 
-export default Buttons
+export default Buttons;

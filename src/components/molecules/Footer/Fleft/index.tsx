@@ -5,7 +5,7 @@ import { ReactComponent as BlinkList } from "../../../../assets/Image/BlinkList.
 import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";
 
-const index = () => {
+const Index = () => {
   const classes = customStyles();
   return (
     <Grid
@@ -16,9 +16,10 @@ const index = () => {
         width: "378px",
         height: "120px",
       }}
+      data-testid="footer-left"
     >
       <Grid item sx={{ height: "24px", width: "100px" }}>
-        <BlinkList />
+        <BlinkList title="Blinklist -logo" />
       </Grid>
 
       <Grid item>
@@ -34,4 +35,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

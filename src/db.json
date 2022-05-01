@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/employee_to_entrepreneur.jpg",
       "bookName": "Employee to Entrepreneur",
       "authorName": "Steve Glaveski",
@@ -112,7 +112,7 @@
     },
     {
       "id": 11,
-      "finished": true,
+      "finished": false,
       "imgsrc": "/BookCovers/beyondentrepreneurship.png",
       "bookName": "Beyond Entrepreneurship",
       "authorName": "Jim Collins & Bill Lazier",

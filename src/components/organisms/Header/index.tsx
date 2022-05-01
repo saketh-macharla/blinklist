@@ -27,6 +27,7 @@ const Index = () => {
       direction="column"
       alignItems="center"
       // sx={{ width: "1440px" }}
+      role="Header"
     >
       <Grid
         item

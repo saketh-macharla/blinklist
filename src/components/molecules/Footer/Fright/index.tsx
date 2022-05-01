@@ -12,6 +12,7 @@ const Index = () => {
       columnGap={4}
       wrap="nowrap"
       className={classes.footer}
+      data-testid="footer-right"
     >
       {/* // Editorial */}
       <Grid

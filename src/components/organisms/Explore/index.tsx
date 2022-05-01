@@ -121,6 +121,7 @@ const Index = (props: ExploreCardProps) => {
     <Grid
       container
       sx={{ background: "#F1F6F4", justifyContent: "center", width: "1440px" }}
+      role="Explore"
     >
       <Grid
         item

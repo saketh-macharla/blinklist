@@ -32,6 +32,7 @@ const index = ({ text, ColGap, Path, className }: IconTextProps) => {
       columnGap={ColGap}
       sx={{ alignItems: "center" }}
       className={className}
+      data-testid="IconWithText"
     >
       <Grid item>
         {/* <div className={classes.iconText}>{Icons}</div> */}

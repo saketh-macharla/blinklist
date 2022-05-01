@@ -12,6 +12,7 @@ const Banner = () => {
       container
       sx={{ bgcolor: "#F1F6F4", height: "264px", width: "912px", mb: "60px" }}
       wrap="nowrap"
+      data-testid="full-Banner"
     >
       <Grid item my={"45px"} mx={"45px"}>
         <Bleft />

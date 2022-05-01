@@ -21,7 +21,7 @@ export interface CardsProps extends bookInfo {
 const index = (props: CardsProps) => {
   const classes = customStyles();
   return (
-    <Card className={classes.CardHead}>
+    <Card className={classes.CardHead} data-testid="RF-Card">
       <CardMedia
         component="img"
         alt="Card-image"
