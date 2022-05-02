@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RFCard from "../../molecules/Cards/RFCard";
 import AddLibCard from "../../molecules/Cards/AddLibCard";
-import { CardsProps } from "../../molecules/Cards/RFCard";
 import { Grid } from "@mui/material";
-import { customStyles } from "../../../theme";
-import axios from "axios";
 
 // const classes = customStyles();
 

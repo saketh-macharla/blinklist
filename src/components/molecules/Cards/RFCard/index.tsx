@@ -7,11 +7,7 @@ import { Grid } from "@mui/material";
 import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";
 import IconWithText from "../../IconWithText";
-import AccessTime from "@mui/icons-material/AccessTime";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import Buttons from "../../../atoms/Buttons/Buttons";
-import { padding } from "@mui/system";
-import { StringDecoder } from "string_decoder";
 import { bookInfo } from "../../../organisms/FunctionalGrid";
 
 export interface CardsProps extends bookInfo {

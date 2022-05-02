@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import CardGrid from "../CardsGrid";
 
 export interface bookInfo {

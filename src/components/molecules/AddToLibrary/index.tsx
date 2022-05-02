@@ -1,6 +1,5 @@
 import React from "react";
 import Buttons from "../../atoms/Buttons/Buttons";
-import { styled } from "@mui/system";
 import AddIcon from "@mui/icons-material/Add";
 import { customStyles } from "../../../theme";
 import CustomTypo from "../../atoms/CustomTypo";

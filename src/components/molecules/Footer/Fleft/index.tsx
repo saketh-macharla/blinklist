@@ -1,6 +1,5 @@
 import Grid from "@mui/material/Grid";
 import React from "react";
-import SvgIcon from "@mui/material/SvgIcon";
 import BlinkList from "../../../../assets/Image/BlinkList.svg";
 import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";

@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import CustomTypo from "../../atoms/CustomTypo";
 import undraw_Reading from "../../../assets/Image/undraw_Reading.png";
 import { customStyles } from "../../../theme";
 import Bleft from "./Bleft/Bleft";

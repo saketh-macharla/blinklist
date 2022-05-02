@@ -4,7 +4,7 @@ import Header from "../../organisms/Header";
 import Template1 from "../../templates/Template1";
 import Banner from "../../molecules/Banner/Banner";
 import { ReactComponent as SearchIcon } from "../../../assets/Image/SearchIcon.svg";
-import { Grid, SvgIcon } from "@mui/material";
+import { SvgIcon } from "@mui/material";
 import InputAdornment from "@mui/material/InputAdornment";
 import TextField from "@mui/material/TextField";
 import CustomTypo from "../../atoms/CustomTypo";
@@ -13,7 +13,6 @@ import CardGrid from "../../organisms/CardsGrid";
 import { Box } from "@material-ui/core";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { display } from "@mui/system";
 
 const Index = () => {
   const classes = customStyles();

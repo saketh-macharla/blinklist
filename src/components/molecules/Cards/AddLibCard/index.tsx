@@ -3,15 +3,10 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import { Grid } from "@mui/material";
 import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";
 import IconWithText from "../../IconWithText";
-import AccessTime from "@mui/icons-material/AccessTime";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import { padding } from "@mui/system";
 import AddToLibrary from "../../AddToLibrary";
-import { bookInfo } from "../../../organisms/FunctionalGrid";
 
 export interface CardsProps {
   handleClick: any;

@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { Grid } from "@mui/material";
 import Header from "../../organisms/Header";
 import Footer from "../../molecules/Footer";
 import Template from "../../templates/Template1";
-// import CardGrid from "../../organisms/CardsGrid/index";
 import FunctionalGrid, { bookInfo } from "../../organisms/FunctionalGrid";
-// import { BookList } from "../../constants";
 import CustomTypo from "../../atoms/CustomTypo";
 import { customStyles } from "../../../theme";
 
 import axios from "axios";
 
-// new imports for currRead and finishedRead
 import { Box, Tab } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 

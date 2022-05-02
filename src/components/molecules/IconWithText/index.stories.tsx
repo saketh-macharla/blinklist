@@ -1,6 +1,5 @@
 import IconText from "./index";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import Time from "../../../assets/Image/Time.png";
 import { customStyles } from "../../../theme";
 

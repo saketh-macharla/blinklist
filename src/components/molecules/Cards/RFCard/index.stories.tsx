@@ -1,5 +1,4 @@
 import SingleCard from "./index";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
 import bringyourhuman from "../../../../assets/BookCovers/bringyourhumantowork.png";
 import { customStyles } from "../../../../theme";
 import Person from "../../../../assets/Image/Person.png";

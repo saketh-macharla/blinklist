@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "@mui/material";
-import { customStyles } from "../../../theme";
 import { ButtonProps } from "@mui/material";
 
 // interface ButtonsProps{

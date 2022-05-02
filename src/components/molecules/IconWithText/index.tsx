@@ -1,9 +1,7 @@
 import React from "react";
 import CustomTypo from "../../atoms/CustomTypo/index";
 import { customStyles } from "../../../theme";
-import div from "@mui/material/Icon";
 import { Grid } from "@mui/material";
-import { SvgIcon } from "@material-ui/core";
 
 type iprops = {
   className: string;

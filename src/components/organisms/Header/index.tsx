@@ -2,14 +2,9 @@ import { Box, Grid } from "@mui/material";
 import React, { useState } from "react";
 import AvatarWithIcon from "../../molecules/AvatarWithIcon";
 import BlinkList from "../../../assets/Image/BlinkList.svg";
-// import SearchIcon from "@mui/icons-material/Search";
 import CustomTypo from "../../atoms/CustomTypo";
 import { customStyles } from "../../../theme";
-import {
-  CheckBoxOutlineBlankRounded,
-  KeyboardArrowDown,
-  KeyboardArrowUp,
-} from "@mui/icons-material";
+import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 import Buttons from "../../atoms/Buttons/Buttons";
 import SvgIcon from "@mui/material/SvgIcon";
 import { ReactComponent as SearchIcon } from "../../../assets/Image/SearchIcon.svg";

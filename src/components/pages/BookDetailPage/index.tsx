@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Grid } from "@mui/material";
 import Header from "../../organisms/Header";
 import Footer from "../../molecules/Footer";
 import Template from "../../templates/Template1";
-import CardGrid from "../../organisms/CardsGrid/index";
-import { BookList } from "../../constants";
 import { customStyles } from "../../../theme";
 import BookInfo from "../../organisms/BookInfo/Index";
-import beyondEntrepreneur from "../../../assets/BookCovers/beyondentrepreneurship.png";
 import { Box, Tab } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import CustomTypo from "../../atoms/CustomTypo";

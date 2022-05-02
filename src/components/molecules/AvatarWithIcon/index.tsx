@@ -3,7 +3,6 @@ import CustomAvatar from "../../atoms/Avatar/index";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
-import { display } from "@mui/system";
 import { Button } from "@mui/material";
 import { useAuth0 } from "@auth0/auth0-react";
 

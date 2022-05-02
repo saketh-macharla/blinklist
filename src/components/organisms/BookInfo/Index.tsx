@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import CustomTypo from "../../atoms/CustomTypo";
-import { ClassNames } from "@emotion/react";
 import { customStyles } from "../../../theme";
 import IconWithText from "../../molecules/IconWithText/index";
 import Time from "../../../assets/Image/Time.png";
 import Buttons from "../../atoms/Buttons/Buttons";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import axios from "axios";
-import { fabClasses } from "@mui/material";
 
 interface BookInfoProps {
   imgPath: string;
