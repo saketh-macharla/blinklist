@@ -68,7 +68,7 @@
     },
     {
       "id": 7,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/thelonelycentury.png",
       "bookName": "The Lonely Century",
       "authorName": "Noreena Hertz",
@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/beingboss.png",
       "bookName": "Being Boss",
       "authorName": "Kathleen Shannon and Emily...",

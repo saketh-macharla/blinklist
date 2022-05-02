@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import React from "react";
 import SvgIcon from "@mui/material/SvgIcon";
-import { ReactComponent as BlinkList } from "../../../../assets/Image/BlinkList.svg";
+import BlinkList from "../../../../assets/Image/BlinkList.svg";
 import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";
 
@@ -19,10 +19,7 @@ const Index = () => {
       role="footer-left"
     >
       <Grid item sx={{ height: "24px", width: "100px" }}>
-        {/* <BlinkList title="Blinklist -logo" /> */}
-        <SvgIcon component={BlinkList} />
-
-        {/* <img src={BlinkList} /> */}
+        <img src={BlinkList} />
       </Grid>
 
       <Grid item>

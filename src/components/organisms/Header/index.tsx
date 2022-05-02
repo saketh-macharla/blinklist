@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import React, { useState } from "react";
 import AvatarWithIcon from "../../molecules/AvatarWithIcon";
-import { ReactComponent as BlinkList } from "../../../assets/Image/BlinkList.svg";
+import BlinkList from "../../../assets/Image/BlinkList.svg";
 // import SearchIcon from "@mui/icons-material/Search";
 import CustomTypo from "../../atoms/CustomTypo";
 import { customStyles } from "../../../theme";
@@ -51,7 +51,7 @@ const Index = () => {
           sx={{ width: "auto", display: "flex", alignItems: "center" }}
         >
           <Grid item sx={{ height: "24px", width: "100px" }}>
-            <SvgIcon component={BlinkList} />
+            <img src={BlinkList} />
           </Grid>
 
           <Grid item sx={{ display: "flex", alignItems: "center" }}>
