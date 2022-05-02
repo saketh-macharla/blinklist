@@ -37,6 +37,7 @@ const Index = () => {
 
   return (
     <Template
+      data-testid="BookDetailPage"
       Header={<Header />}
       Content={
         <>

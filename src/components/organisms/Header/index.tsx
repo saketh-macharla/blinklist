@@ -51,7 +51,7 @@ const Index = () => {
           sx={{ width: "auto", display: "flex", alignItems: "center" }}
         >
           <Grid item sx={{ height: "24px", width: "100px" }}>
-            <BlinkList />
+            <SvgIcon component={BlinkList} />
           </Grid>
 
           <Grid item sx={{ display: "flex", alignItems: "center" }}>
@@ -94,6 +94,7 @@ const Index = () => {
             variant="text"
             onClick={() => navigate("/")}
             sx={{ textTransform: "none" }}
+            role="Lib-button"
           >
             <CustomTypo
               variant="body2"
@@ -113,6 +114,7 @@ const Index = () => {
         item
         sx={{ width: "1440px" }}
         className={clicked ? classes.visible : classes.hidden}
+        data-testid="Explore-Popup"
       >
         <ExploreDrop handleChange={() => navigate("/explorePage")} />
       </Grid>

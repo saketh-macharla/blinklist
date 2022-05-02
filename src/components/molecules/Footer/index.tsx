@@ -8,7 +8,7 @@ import CustomTypo from "../../atoms/CustomTypo";
 const index = () => {
   const classes = customStyles();
   return (
-    <Grid container className={classes.fullFooter}>
+    <Grid container className={classes.fullFooter} role="Footer">
       <Grid
         item
         container

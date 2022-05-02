@@ -89,6 +89,7 @@ const index = (props: CardsProps) => {
             <Buttons
               variant="text"
               onClick={() => props.handleClick(props.id, props.finished)}
+              role="Finished-button"
             >
               <CustomTypo
                 variant="body1"

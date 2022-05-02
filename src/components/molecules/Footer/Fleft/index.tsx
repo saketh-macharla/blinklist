@@ -16,10 +16,13 @@ const Index = () => {
         width: "378px",
         height: "120px",
       }}
-      data-testid="footer-left"
+      role="footer-left"
     >
       <Grid item sx={{ height: "24px", width: "100px" }}>
-        <BlinkList title="Blinklist -logo" />
+        {/* <BlinkList title="Blinklist -logo" /> */}
+        <SvgIcon component={BlinkList} />
+
+        {/* <img src={BlinkList} /> */}
       </Grid>
 
       <Grid item>
