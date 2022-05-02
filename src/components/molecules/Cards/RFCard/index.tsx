@@ -8,9 +8,9 @@ import CustomTypo from "../../../atoms/CustomTypo";
 import { customStyles } from "../../../../theme";
 import IconWithText from "../../IconWithText";
 import Buttons from "../../../atoms/Buttons/Buttons";
-import { bookInfo } from "../../../organisms/FunctionalGrid";
+import { BookInfo } from "../../../organisms/FunctionalGrid";
 
-export interface CardsProps extends bookInfo {
+export interface CardsProps extends BookInfo {
   handleClick: (id: number, finish: boolean) => void;
 }
 

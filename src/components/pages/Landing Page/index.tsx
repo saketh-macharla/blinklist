@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../../organisms/Header";
 import Footer from "../../molecules/Footer";
 import Template from "../../templates/Template1";
-import FunctionalGrid, { bookInfo } from "../../organisms/FunctionalGrid";
+import FunctionalGrid, { BookInfo } from "../../organisms/FunctionalGrid";
 import CustomTypo from "../../atoms/CustomTypo";
 import { customStyles } from "../../../theme";
 
@@ -27,7 +27,7 @@ const Index = () => {
     });
   };
 
-  const [books, setBooks] = useState<bookInfo[]>([]);
+  const [books, setBooks] = useState<BookInfo[]>([]);
   useEffect(() => {
     fetchRecords();
   }, []);

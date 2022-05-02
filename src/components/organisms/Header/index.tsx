@@ -1,4 +1,4 @@
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import React, { useState } from "react";
 import AvatarWithIcon from "../../molecules/AvatarWithIcon";
 import BlinkList from "../../../assets/Image/BlinkList.svg";
