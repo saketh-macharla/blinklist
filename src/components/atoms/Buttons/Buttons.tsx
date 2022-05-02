@@ -1,15 +1,5 @@
 import React from "react";
-import { Button } from "@mui/material";
-import { ButtonProps } from "@mui/material";
-
-// interface ButtonsProps{
-//   children:React.ReactNode,
-//   variant?: "text" | "outlined" | "contained",
-//   startIcon?:React.ReactNode,
-//   endIcon?:React.ReactNode,
-//   className?:string,
-
-// }
+import { Button, ButtonProps } from "@mui/material";
 
 const Buttons = ({ children, ...rest }: ButtonProps) => {
   return <Button {...rest}>{children}</Button>;

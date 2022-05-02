@@ -14,13 +14,12 @@ const Index = () => {
   const classes = customStyles();
 
   const [value, setValue] = useState("1");
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
   const { id } = useParams();
   console.log(`params ${id}`);
-  // var books: any = [];
   const [books, setBooks] = useState([] as any);
 
   useEffect(() => {

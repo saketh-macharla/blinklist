@@ -15,14 +15,13 @@ const Index = () => {
   const classes = customStyles();
   // new
   const [value, setValue] = useState("1");
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
   const fetchRecords = () => {
     axios.get("http://localhost:3001/booklist").then((res) => {
       const newBooks = res.data;
-      // console.log(newBooks);
       setBooks(newBooks);
       console.log(books);
     });
@@ -72,14 +71,12 @@ const Index = () => {
               <TabPanel value="1" sx={{ mt: "25px", p: "0" }}>
                 <FunctionalGrid
                   fetchRecords={fetchRecords}
-                  name="currentlyReading"
                   books={books.filter((x) => !x.finished)}
                 />
               </TabPanel>
               <TabPanel value="2" sx={{ mt: "25px", p: "0" }}>
                 <FunctionalGrid
                   fetchRecords={fetchRecords}
-                  name="finished"
                   books={books.filter((x) => x.finished)}
                 />
               </TabPanel>

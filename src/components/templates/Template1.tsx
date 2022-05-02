@@ -1,13 +1,13 @@
 import React from "react";
 import { Grid } from "@mui/material";
 
-interface templateProps {
+interface TemplateProps {
   Header: React.ReactNode;
   Content: React.ReactNode;
   Footer: React.ReactNode;
 }
 
-const Template1 = ({ Header, Footer, Content }: templateProps) => {
+const Template1 = ({ Header, Footer, Content }: TemplateProps) => {
   return (
     // Original
     // <Grid container direction="column" sx={{ alignItems: "center" }}>

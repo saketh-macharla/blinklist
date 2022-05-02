@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import RFCard from "../../molecules/Cards/RFCard";
 import AddLibCard from "../../molecules/Cards/AddLibCard";
 import { Grid } from "@mui/material";
 
-// const classes = customStyles();
-
-interface cardObjProps {
+interface CardObjProps {
   handleClick: ((id: number, finish: boolean) => void) | ((id: number) => void);
   addtoLib: boolean;
   details: {
@@ -21,7 +19,7 @@ interface cardObjProps {
   }[];
 }
 
-const Index = (props: cardObjProps) => {
+const Index = (props: CardObjProps) => {
   return (
     <Grid container spacing={"29px"} data-testid="Card-Grid">
       {props.details.map((cardObj, index) => {

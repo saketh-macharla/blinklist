@@ -4,9 +4,6 @@ import AddIcon from "@mui/icons-material/Add";
 import { customStyles } from "../../../theme";
 import CustomTypo from "../../atoms/CustomTypo";
 
-// type fun1 = (id: number, finish: boolean) => void;
-// type fun2 = () => void;
-
 interface AddLibProps {
   handleClick: any;
 }
