@@ -40,4 +40,15 @@ describe("ExplorePage", () => {
     expect(ExploreButton).toBeInTheDocument();
     expect(screen.getByTestId("Explore-Popup")).not.toBeVisible();
   });
+
+  it("AddtoLib", () => {
+    render(<MockPage />);
+    const ExploreButton = screen.getByText("Explore");
+    const LibraryButton = screen.getByText("My Library");
+
+    fireEvent.click(LibraryButton);
+
+    expect(ExploreButton).toBeInTheDocument();
+    expect(screen.getByTestId("Explore-Popup")).not.toBeVisible();
+  });
 });

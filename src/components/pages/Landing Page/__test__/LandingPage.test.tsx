@@ -32,4 +32,17 @@ describe("LandingPage", () => {
     expect(LandingPageElement).toBeInTheDocument();
     expect(screen.getByTestId("Explore-Popup")).toBeVisible();
   });
+
+  it("should render LandingPage element with readagain", () => {
+    render(<MockPage />);
+    const LandingPageElement = screen.getByText("Explore");
+    const LibraryButton = screen.getByRole("Lib-button");
+
+    fireEvent.click(LibraryButton);
+
+    fireEvent.click(LandingPageElement);
+
+    expect(LandingPageElement).toBeInTheDocument();
+    expect(screen.getByTestId("Explore-Popup")).toBeVisible();
+  });
 });

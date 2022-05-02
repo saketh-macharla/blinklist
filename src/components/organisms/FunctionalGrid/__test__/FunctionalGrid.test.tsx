@@ -30,9 +30,9 @@ describe("FunctionalGrid", () => {
     const FunctionalGridElement = screen.getByText("Eric Keswin");
     const RFCard = screen.getByTestId("RF-Card");
     const buttonElement = screen.getByText("finished");
-    const CardGridElement = screen.getByTestId("Card-Grid");
 
     fireEvent.click(buttonElement);
+
     expect(buttonElement).toBeInTheDocument();
     expect(FunctionalGridElement).toBeInTheDocument();
     expect(RFCard).toBeInTheDocument();

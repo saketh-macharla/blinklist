@@ -1,249 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651468363472" clover="3.2.0">
-  <project timestamp="1651468363472" name="All files">
-    <metrics statements="131" coveredstatements="70" conditionals="16" coveredconditionals="7" methods="52" coveredmethods="26" elements="199" coveredelements="103" complexity="0" loc="131" ncloc="131" packages="24" files="24" classes="24"/>
+<coverage generated="1651490226600" clover="3.2.0">
+  <project timestamp="1651490226600" name="All files">
+    <metrics statements="146" coveredstatements="133" conditionals="22" coveredconditionals="18" methods="58" coveredmethods="50" elements="226" coveredelements="201" complexity="0" loc="146" ncloc="146" packages="25" files="25" classes="25"/>
     <package name="src">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/home/saketm/React/blinklist/src/App.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="15" count="4" type="stmt"/>
+        <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Avatar">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/atoms/Avatar/index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="8" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="47" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.Buttons">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Buttons.tsx" path="/home/saketm/React/blinklist/src/components/atoms/Buttons/Buttons.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="163" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="16" count="980" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.CustomTypo">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/atoms/CustomTypo/index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="305" type="stmt"/>
+        <line num="22" count="19" type="stmt"/>
+        <line num="23" count="1957" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.AddToLibrary">
-      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/AddToLibrary/index.tsx">
-        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="28" type="stmt"/>
+        <line num="17" count="28" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.AvatarWithIcon">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/AvatarWithIcon/index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
+        <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Banner">
-      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Banner.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Banner/Banner.tsx">
-        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="19" type="stmt"/>
+        <line num="10" count="19" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Banner.Bleft">
-      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Bleft.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Banner/Bleft/Bleft.tsx">
-        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="20" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Cards.AddLibCard">
-      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Cards/AddLibCard/index.tsx">
-        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="73" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="26" type="stmt"/>
+        <line num="31" count="26" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Cards.RFCard">
-      <metrics statements="5" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Cards/RFCard/index.tsx">
-        <metrics statements="5" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Footer">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Footer/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="33" type="stmt"/>
+        <line num="10" count="33" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Footer.Fleft">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Footer/Fleft/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="34" type="stmt"/>
+        <line num="10" count="34" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Footer.Fright">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/Footer/Fright/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="34" type="stmt"/>
+        <line num="8" count="34" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.IconWithText">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/molecules/IconWithText/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="84" type="stmt"/>
+        <line num="21" count="84" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.BookInfo">
-      <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="Index.tsx" path="/home/saketm/React/blinklist/src/components/organisms/BookInfo/Index.tsx">
-        <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="22" count="15" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="15" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.CardsGrid">
-      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/organisms/CardsGrid/index.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="6" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="64" type="stmt"/>
+        <line num="31" count="31" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Explore">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/organisms/Explore/index.tsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="105" count="1" type="stmt"/>
-        <line num="106" count="8" type="stmt"/>
-        <line num="107" count="8" type="stmt"/>
-        <line num="108" count="144" type="stmt"/>
-        <line num="120" count="8" type="stmt"/>
-        <line num="174" count="144" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="105" count="6" type="stmt"/>
+        <line num="106" count="45" type="stmt"/>
+        <line num="107" count="45" type="stmt"/>
+        <line num="108" count="810" type="stmt"/>
+        <line num="120" count="45" type="stmt"/>
+        <line num="174" count="810" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.FunctionalGrid">
-      <metrics statements="11" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/organisms/FunctionalGrid/index.tsx">
-        <metrics statements="11" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="6" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="43" count="6" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.Header">
-      <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+      <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="3"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/organisms/Header/index.tsx">
-        <metrics statements="8" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="8" type="stmt"/>
-        <line num="21" count="8" type="stmt"/>
-        <line num="22" count="8" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="69" count="1" type="stmt"/>
-        <line num="95" count="1" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="3"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="44" type="stmt"/>
+        <line num="21" count="44" type="stmt"/>
+        <line num="22" count="44" type="stmt"/>
+        <line num="23" count="44" type="stmt"/>
+        <line num="25" count="44" type="stmt"/>
+        <line num="70" count="5" type="stmt"/>
+        <line num="96" count="6" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.pages.BookDetailPage">
-      <metrics statements="14" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/pages/BookDetailPage/index.tsx">
-        <metrics statements="14" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+        <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.components.pages.ExplorePage">
-      <metrics statements="19" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7"/>
       <file name="Index.tsx" path="/home/saketm/React/blinklist/src/components/pages/ExplorePage/Index.tsx">
-        <metrics statements="19" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
+        <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="19" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
+        <line num="23" count="18" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="29" count="18" type="stmt"/>
+        <line num="30" count="18" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+        <line num="37" count="18" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="43" count="18" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <line num="48" count="18" type="stmt"/>
       </file>
     </package>
     <package name="src.components.pages.Landing Page">
       <metrics statements="16" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/components/pages/Landing Page/index.tsx">
         <metrics statements="16" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
         <line num="19" count="7" type="stmt"/>
         <line num="21" count="6" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
@@ -261,20 +272,30 @@
         <line num="87" count="3" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.pages.LoginPage">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="LoginPage.tsx" path="/home/saketm/React/blinklist/src/components/pages/LoginPage/LoginPage.tsx">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.templates">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Template1.tsx" path="/home/saketm/React/blinklist/src/components/templates/Template1.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="6" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="32" type="stmt"/>
       </file>
     </package>
     <package name="src.theme">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.tsx" path="/home/saketm/React/blinklist/src/theme/index.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="85" count="1" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="85" count="18" type="stmt"/>
       </file>
     </package>
   </project>

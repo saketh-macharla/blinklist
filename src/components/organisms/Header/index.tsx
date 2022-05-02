@@ -20,6 +20,7 @@ const Index = () => {
   const [clicked, handler] = useState(false);
   const navigate = useNavigate();
   const classes = customStyles();
+  const [logClick, handleLogin] = useState(true);
 
   return (
     <Grid
@@ -106,7 +107,10 @@ const Index = () => {
         </Grid>
 
         <Grid item>
-          <AvatarWithIcon />
+          <AvatarWithIcon
+            logClick={logClick}
+            handleLogin={() => handleLogin(!logClick)}
+          />
         </Grid>
       </Grid>
 

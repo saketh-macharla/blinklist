@@ -21,6 +21,7 @@ const index = (props: AddLibProps) => {
         startIcon={<AddIcon />}
         className={classes.addToLib}
         onClick={() => props.handleClick()}
+        data-testid="Addtolib"
       >
         <CustomTypo variant="body2" component="div" children="Add to library" />
       </Buttons>

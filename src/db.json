@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "finished": true,
+      "finished": false,
       "imgsrc": "/BookCovers/employee_to_entrepreneur.jpg",
       "bookName": "Employee to Entrepreneur",
       "authorName": "Steve Glaveski",
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/thefateoffood.png",
       "bookName": "The Fate of Food",
       "authorName": "Amanda Little",
@@ -112,7 +112,7 @@
     },
     {
       "id": 11,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/beyondentrepreneurship.png",
       "bookName": "Beyond Entrepreneurship",
       "authorName": "Jim Collins & Bill Lazier",
