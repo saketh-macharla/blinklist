@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "finished": false,
+      "finished": true,
       "imgsrc": "/BookCovers/livesofthestoics.png",
       "bookName": "Lives of the Stoics",
       "authorName": "Ryan Holiday, Stephen Hansel",

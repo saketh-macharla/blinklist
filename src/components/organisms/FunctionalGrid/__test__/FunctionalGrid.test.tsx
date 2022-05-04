@@ -9,7 +9,6 @@ describe("FunctionalGrid", () => {
   it("should render FunctionalGrid element with finished button", () => {
     render(
       <FunctionalGrid
-        name="finished"
         fetchRecords={mockfunction}
         books={[
           {
